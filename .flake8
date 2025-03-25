@@ -1,0 +1,14 @@
+[flake8]
+ignore = S101, S105, S106, B101, W503, Q000, E402, JS101, JS102, VNE002
+per-file-ignores =
+    translator.py: E501
+max-line-length = 140
+max_cognitive_complexity = 16
+
+exclude =
+    .artifacts
+    .git
+    .idea
+    .venv
+    .env
+    .local

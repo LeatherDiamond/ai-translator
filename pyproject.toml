@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ai translator"
+version = "0.1.0"
+description = "An applicaion that uses OpenAI Batch API to translate huge files."
+authors = ["Alexander Dovguchits <alexander.dovguchits@gmail.com>"]
+license = "MIT license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tiktoken = "^0.8.0"
+black = "^24.10.0"
+flake8 = "^7.1.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
