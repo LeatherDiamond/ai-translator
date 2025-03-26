@@ -52,7 +52,7 @@ The project excels at handling complex web content, such as pages with technical
 > ![processed jobs](https://github.com/LeatherDiamond/ai-translator/blob/main/README%20images/processed%20jobs.png)
 9) In the next stage, the script will:
     - Combine the processed files into one;
-    - Sort the resulting data in the required order based on the custom_id recorded for each request within the '.jsonl' files;
+    - Sort the resulting data in the required order based on the custom_id recorded for each request within the `.jsonl` files;
     - Replace all placeholders in the format `{{tag_x}}` with the corresponding data extracted during the initial file processing (stored in the    `tag_dict.jsonl` dictionary in the `output_jsonl/` directory).
     - The final file will be converted into `translated_output.csv` and placed in the project root.
 
